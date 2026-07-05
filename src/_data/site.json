@@ -1,0 +1,32 @@
+{
+  "name": "Side",
+  "domain": "legalside.ru",
+  "tagline": "Закон на вашей стороне",
+  "app_upload": "https://app.getside.ru/upload",
+  "bot": "https://t.me/getside_bot",
+  "utm_base": "utm_source=legalside&utm_medium=landing",
+  "metrika_id": "109950121",
+  "contacts": {
+    "telegram_bot": "https://t.me/getside_bot",
+    "telegram_channel": "https://t.me/legalside",
+    "vk": "https://vk.ru/club239654998",
+    "dzen": "https://dzen.ru/legalside",
+    "email": "ip.maa.mos@gmail.com"
+  },
+  "legal": {
+    "entity": "ИП",
+    "ogrnip": "325508100481114",
+    "inn": "503009209888",
+    "rkn": "100288920",
+    "privacy_url": "https://app.getside.ru/privacy",
+    "offer_url": "https://app.getside.ru/offer"
+  },
+  "nav": [
+    { "title": "ФССП", "url": "/uc/fssp/" },
+    { "title": "ЖКХ", "url": "/uc/zkh/" },
+    { "title": "Монополии", "url": "/uc/monopoly/" },
+    { "title": "Налоговая", "url": "/uc/nalogovaya/" },
+    { "title": "Коллекторы", "url": "/uc/kolektor/" },
+    { "title": "Труд", "url": "/uc/trudovoy/" }
+  ]
+}

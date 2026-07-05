@@ -1,0 +1,65 @@
+---
+layout: base.njk
+title: "Цены"
+description: "Первый разбор документа — бесплатно. Подготовка готового документа — по фиксированной цене, без скрытых платежей."
+---
+
+<section class="hero">
+  <div class="container hero-inner">
+    <h1>Понятные цены</h1>
+    <p class="lead">Первый разбор — бесплатно. Готовый документ — по фиксированной цене, которую вы видите заранее. Без подписок и скрытых платежей.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="price-grid">
+      <div class="price-card is-free">
+        <h3>Разбор документа</h3>
+        <div class="price">Бесплатно</div>
+        <ul>
+          <li>Распознаём и разбираем ваш документ</li>
+          <li>Объясняем, что это и чем грозит</li>
+          <li>Показываем, что можно сделать</li>
+        </ul>
+        <a class="btn btn-primary" href="{{ site.app_upload }}?{{ site.utm_base }}&utm_campaign=pricing_free">Разобрать документ</a>
+      </div>
+
+      <div class="price-card">
+        <h3>Готовый документ</h3>
+        <div class="price">от 499&nbsp;<small>₽ / документ</small></div>
+        <ul>
+          <li>Заявление, жалоба, претензия или возражение</li>
+          <li>Составлен под вашу конкретную ситуацию</li>
+          <li>Готов к подаче</li>
+        </ul>
+        <a class="btn btn-secondary" href="{{ site.bot }}?start=pricing">Начать в Telegram</a>
+      </div>
+    </div>
+
+    <div class="prose" style="margin-top:44px;">
+      <h2>Стоимость документа зависит от сложности</h2>
+      <p>Уровень определяется автоматически по вашей ситуации. Цену вы видите до оплаты — списание происходит только после подтверждения.</p>
+    </div>
+    <div class="cards" style="margin-top:24px;">
+      <div class="card"><p><strong>Базовый — 499 ₽</strong><br>Простое обращение: заявление, претензия, типовая жалоба.</p></div>
+      <div class="card"><p><strong>Про-начальный — 1 500 ₽</strong><br>Ситуация с цепочкой действий или несколькими документами.</p></div>
+      <div class="card"><p><strong>Про-стандарт — 3 000 ₽</strong><br>Сложный случай: возражение по камеральной проверке, спор с историей.</p></div>
+      <div class="card"><p><strong>Про-сложный — 5 000 ₽</strong><br>Развёрнутый документ: иск, многостраничное возражение.</p></div>
+    </div>
+
+    <div class="prose" style="margin-top:36px;">
+      <p style="color:var(--muted);font-size:0.95rem;">Без подписок. Баланс не сгорает, остаток можно вернуть. Результат зависит от обстоятельств дела — сервис готовит документы, но не гарантирует исход.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta-band">
+      <h2>Начните с бесплатного разбора</h2>
+      <p>Оплата — только если решите заказать готовый документ.</p>
+      <a class="btn btn-primary" href="{{ site.app_upload }}?{{ site.utm_base }}&utm_campaign=pricing_footer">Разобрать документ</a>
+    </div>
+  </div>
+</section>

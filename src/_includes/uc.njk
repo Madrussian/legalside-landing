@@ -1,0 +1,59 @@
+---
+layout: base.njk
+---
+
+<section class="hero">
+  <div class="container hero-inner">
+    <h1>{{ h1 }}</h1>
+    <p class="lead">{{ lead }}</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="{{ site.app_upload }}?{{ site.utm_base }}&utm_campaign={{ uc }}">{{ cta_label }}</a>
+      <a class="btn btn-secondary" href="{{ site.bot }}?start={{ uc }}">Начать в Telegram</a>
+    </div>
+    <div class="trust-line">
+      <span>Первый разбор — бесплатно</span>
+      <span>Данные под защитой</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Знакомо?</div>
+      <h2>{{ pains_title }}</h2>
+    </div>
+    <div class="cards">
+      {%- for pain in pains %}
+      <div class="card"><p>{{ pain }}</p></div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-mist">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Как поможем</div>
+      <h2>Три шага</h2>
+    </div>
+    <div class="steps">
+      {%- for step in steps %}
+      <div class="step">
+        <h3>{{ step.title }}</h3>
+        <p>{{ step.text }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta-band">
+      <h2>{{ cta_band_title }}</h2>
+      <p>{{ cta_band_text }}</p>
+      <a class="btn btn-primary" href="{{ site.app_upload }}?{{ site.utm_base }}&utm_campaign={{ uc }}_footer">{{ cta_label }}</a>
+    </div>
+  </div>
+</section>
