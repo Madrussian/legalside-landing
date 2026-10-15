@@ -25,9 +25,6 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
-        env:
-          # Этап 3: превью на github.io/legalside-landing/. Убрать при переключении DNS (Этап 4).
-          PATH_PREFIX: /legalside-landing/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
