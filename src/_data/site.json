@@ -1,6 +1,7 @@
 {
   "name": "Side",
   "domain": "legalside.ru",
+  "url": "https://legalside.ru",
   "tagline": "Закон на вашей стороне",
   "app_upload": "https://app.getside.ru/upload",
   "bot": "https://t.me/getside_bot",

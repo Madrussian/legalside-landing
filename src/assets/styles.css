@@ -5,28 +5,28 @@
 
 @font-face {
   font-family: "Golos Text";
-  src: url("/assets/fonts/golos-text-400.woff2") format("woff2");
+  src: url("fonts/golos-text-400.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Golos Text";
-  src: url("/assets/fonts/golos-text-500.woff2") format("woff2");
+  src: url("fonts/golos-text-500.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Golos Text";
-  src: url("/assets/fonts/golos-text-600.woff2") format("woff2");
+  src: url("fonts/golos-text-600.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Golos Text";
-  src: url("/assets/fonts/golos-text-700.woff2") format("woff2");
+  src: url("fonts/golos-text-700.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
